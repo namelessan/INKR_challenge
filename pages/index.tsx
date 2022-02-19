@@ -1,5 +1,7 @@
+import Detail from '../components/Detail'
+
 function Home() {
-  return <h1>Home Page</h1>;
+  return <Detail></Detail>
 }
 
-export default Home;
+export default Home

@@ -1,0 +1,15 @@
+@import '../styles/variables.less';
+@import '../styles/mixins.less';
+
+.container {
+  max-width: 960px;
+  margin: auto;
+
+  .full-hd({
+      max-width: 1168px;
+    });
+
+  .widescreen({
+      max-width: 1568px
+    });
+}
